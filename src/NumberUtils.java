@@ -12,7 +12,7 @@ public class NumberUtils {
             String numberString = String.valueOf(this.number);
             return numberString.equals(new StringBuilder(numberString).reverse().toString());
         }
-        return true;
+        return false;
     }
 
 }
