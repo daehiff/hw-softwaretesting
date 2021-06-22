@@ -1,0 +1,4 @@
+klee --search=random-path main_p.bc
+PID: 104
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2021-06-21 17:43:47
